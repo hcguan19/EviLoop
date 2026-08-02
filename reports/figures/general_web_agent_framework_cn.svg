@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1080" viewBox="0 0 1800 1080" role="img" aria-labelledby="title desc">
+  <title id="title">通用网页智能体方法框架</title>
+  <desc id="desc">展示统一Agent Harness、结构化任务理解、DOM优先混合感知、候选检索与重排、闭环Agent Loop、提交门禁与官方评分。</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#334155"/>
+    </marker>
+    <marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#0f766e"/>
+    </marker>
+    <marker id="arrow-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#b45309"/>
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="7" flood-color="#0f172a" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      .title { font: 700 42px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #0f172a; }
+      .subtitle { font: 400 21px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #475569; }
+      .section { font: 700 24px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #0f172a; }
+      .box-title { font: 700 22px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #0f172a; }
+      .box-en { font: 600 15px Arial, sans-serif; fill: #64748b; }
+      .body { font: 400 17px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #334155; }
+      .small { font: 400 15px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #475569; }
+      .tag { font: 600 15px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #ffffff; }
+      .arrow { fill: none; stroke: #334155; stroke-width: 3; marker-end: url(#arrow); }
+      .arrow-teal { fill: none; stroke: #0f766e; stroke-width: 3.5; marker-end: url(#arrow-teal); }
+      .arrow-dashed { fill: none; stroke: #64748b; stroke-width: 2.5; stroke-dasharray: 9 7; marker-end: url(#arrow); }
+      .arrow-recover { fill: none; stroke: #b45309; stroke-width: 3; stroke-dasharray: 10 7; marker-end: url(#arrow-red); }
+    </style>
+  </defs>
+
+  <rect width="1800" height="1080" fill="#f8fafc"/>
+  <rect x="0" y="0" width="1800" height="12" fill="#0f766e"/>
+
+  <text x="90" y="72" class="title">通用网页智能体：统一 Harness 与证据驱动的闭环 Agent Loop</text>
+  <text x="92" y="108" class="subtitle">General Web Agent with a Unified Evaluation Harness and Evidence-Grounded Closed-Loop Execution</text>
+
+  <!-- Harness -->
+  <rect x="70" y="145" width="1660" height="170" rx="8" fill="#ffffff" stroke="#94a3b8" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="70" y="145" width="250" height="42" rx="8" fill="#334155"/>
+  <rect x="70" y="179" width="250" height="8" fill="#334155"/>
+  <text x="92" y="174" class="tag">统一 Agent Harness</text>
+
+  <g filter="url(#shadow)">
+    <rect x="110" y="211" width="285" height="72" rx="7" fill="#eff6ff" stroke="#60a5fa" stroke-width="2"/>
+    <rect x="435" y="211" width="285" height="72" rx="7" fill="#ecfdf5" stroke="#34d399" stroke-width="2"/>
+    <rect x="760" y="211" width="285" height="72" rx="7" fill="#fff7ed" stroke="#fb923c" stroke-width="2"/>
+    <rect x="1085" y="211" width="285" height="72" rx="7" fill="#f5f3ff" stroke="#a78bfa" stroke-width="2"/>
+    <rect x="1410" y="211" width="280" height="72" rx="7" fill="#f1f5f9" stroke="#94a3b8" stroke-width="2"/>
+  </g>
+  <text x="252" y="239" text-anchor="middle" class="box-title">任务与数据集适配</text>
+  <text x="252" y="265" text-anchor="middle" class="small">MiniWoB++ · WebShop · WebArena</text>
+  <text x="577" y="239" text-anchor="middle" class="box-title">环境与浏览器管理</text>
+  <text x="577" y="265" text-anchor="middle" class="small">启动 · 重置 · 会话 · URL映射</text>
+  <text x="902" y="239" text-anchor="middle" class="box-title">模型与工具适配</text>
+  <text x="902" y="265" text-anchor="middle" class="small">统一 LLM API · 动作空间</text>
+  <text x="1227" y="239" text-anchor="middle" class="box-title">预算与可靠性控制</text>
+  <text x="1227" y="265" text-anchor="middle" class="small">Step · Token · Timeout · Resume</text>
+  <text x="1550" y="239" text-anchor="middle" class="box-title">官方评分与记录</text>
+  <text x="1550" y="265" text-anchor="middle" class="small">Reward · 成功率 · 轨迹 · 失败类型</text>
+
+  <!-- Main method container -->
+  <rect x="70" y="350" width="1660" height="600" rx="8" fill="#ffffff" stroke="#0f766e" stroke-width="3" filter="url(#shadow)"/>
+  <rect x="70" y="350" width="345" height="44" rx="8" fill="#0f766e"/>
+  <rect x="70" y="386" width="345" height="8" fill="#0f766e"/>
+  <text x="92" y="380" class="tag">本文方法：通用 Web Agent</text>
+
+  <!-- Stage 1 -->
+  <rect x="105" y="430" width="250" height="190" rx="8" fill="#eff6ff" stroke="#3b82f6" stroke-width="2.5"/>
+  <circle cx="145" cy="468" r="23" fill="#2563eb"/>
+  <text x="145" y="476" text-anchor="middle" class="tag">1</text>
+  <text x="184" y="468" class="box-title">结构化任务理解</text>
+  <text x="184" y="492" class="box-en">Task Grounding</text>
+  <line x1="130" y1="513" x2="330" y2="513" stroke="#bfdbfe" stroke-width="2"/>
+  <text x="132" y="544" class="body">• 目标对象与任务类型</text>
+  <text x="132" y="574" class="body">• 属性、选项与硬约束</text>
+  <text x="132" y="604" class="body">• 价格、数量与完成条件</text>
+
+  <!-- Stage 2 -->
+  <rect x="405" y="430" width="270" height="190" rx="8" fill="#ecfdf5" stroke="#10b981" stroke-width="2.5"/>
+  <circle cx="445" cy="468" r="23" fill="#059669"/>
+  <text x="445" y="476" text-anchor="middle" class="tag">2</text>
+  <text x="484" y="468" class="box-title">能力路由与感知</text>
+  <text x="484" y="492" class="box-en">Routing &amp; Perception</text>
+  <line x1="430" y1="513" x2="650" y2="513" stroke="#a7f3d0" stroke-width="2"/>
+  <text x="432" y="544" class="body">• 页面能力与任务路由</text>
+  <text x="432" y="574" class="body">• DOM / 精简 HTML 优先</text>
+  <text x="432" y="604" class="body">• 关键场景按需使用截图</text>
+
+  <!-- Stage 3 -->
+  <rect x="725" y="430" width="280" height="190" rx="8" fill="#fff7ed" stroke="#f97316" stroke-width="2.5"/>
+  <circle cx="765" cy="468" r="23" fill="#ea580c"/>
+  <text x="765" y="476" text-anchor="middle" class="tag">3</text>
+  <text x="804" y="468" class="box-title">候选检索与重排</text>
+  <text x="804" y="492" class="box-en">Retrieval &amp; Reranking</text>
+  <line x1="750" y1="513" x2="980" y2="513" stroke="#fed7aa" stroke-width="2"/>
+  <text x="752" y="544" class="body">• 关键词与可见候选召回</text>
+  <text x="752" y="574" class="body">• 硬约束过滤</text>
+  <text x="752" y="604" class="body">• 语义重排与置信度</text>
+
+  <!-- Stage 4 / loop -->
+  <rect x="1055" y="418" width="630" height="330" rx="10" fill="#f8fafc" stroke="#64748b" stroke-width="2.5"/>
+  <rect x="1080" y="438" width="235" height="38" rx="19" fill="#334155"/>
+  <text x="1197" y="464" text-anchor="middle" class="tag">4  闭环 Agent Loop</text>
+
+  <g filter="url(#shadow)">
+    <rect x="1090" y="505" width="104" height="74" rx="7" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+    <rect x="1210" y="505" width="104" height="74" rx="7" fill="#ede9fe" stroke="#8b5cf6" stroke-width="2"/>
+    <rect x="1330" y="505" width="104" height="74" rx="7" fill="#ffedd5" stroke="#f97316" stroke-width="2"/>
+    <rect x="1450" y="505" width="104" height="74" rx="7" fill="#dcfce7" stroke="#22c55e" stroke-width="2"/>
+    <rect x="1570" y="505" width="90" height="74" rx="7" fill="#fef3c7" stroke="#eab308" stroke-width="2"/>
+  </g>
+  <text x="1142" y="535" text-anchor="middle" class="box-title">观察</text>
+  <text x="1142" y="560" text-anchor="middle" class="box-en">Observe</text>
+  <text x="1262" y="535" text-anchor="middle" class="box-title">规划</text>
+  <text x="1262" y="560" text-anchor="middle" class="box-en">Plan</text>
+  <text x="1382" y="535" text-anchor="middle" class="box-title">执行</text>
+  <text x="1382" y="560" text-anchor="middle" class="box-en">Act</text>
+  <text x="1502" y="535" text-anchor="middle" class="box-title">验证</text>
+  <text x="1502" y="560" text-anchor="middle" class="box-en">Verify</text>
+  <text x="1615" y="535" text-anchor="middle" class="box-title">记忆</text>
+  <text x="1615" y="560" text-anchor="middle" class="box-en">Memory</text>
+
+  <path d="M1194 542 H1206" class="arrow"/>
+  <path d="M1314 542 H1326" class="arrow"/>
+  <path d="M1434 542 H1446" class="arrow"/>
+  <path d="M1554 542 H1566" class="arrow"/>
+  <path d="M1615 579 V604 C1615 624 1598 638 1578 638 H1138 C1112 638 1098 621 1098 599 V583" class="arrow-teal"/>
+
+  <rect x="1215" y="655" width="305" height="64" rx="7" fill="#fff7ed" stroke="#f59e0b" stroke-width="2"/>
+  <text x="1367" y="682" text-anchor="middle" class="box-title">失败恢复与重新规划</text>
+  <text x="1367" y="706" text-anchor="middle" class="small">循环检测 · 查询改写 · 候选切换 · 状态刷新</text>
+  <path d="M1502 579 V625 C1502 642 1484 650 1465 650" class="arrow-recover"/>
+  <path d="M1215 687 H1160 C1120 687 1098 660 1098 628 V583" class="arrow-recover"/>
+
+  <!-- Main arrows -->
+  <path d="M355 525 H401" class="arrow"/>
+  <path d="M675 525 H721" class="arrow"/>
+  <path d="M1005 525 H1051" class="arrow"/>
+
+  <!-- Commit pipeline -->
+  <rect x="405" y="790" width="270" height="112" rx="8" fill="#fefce8" stroke="#ca8a04" stroke-width="2.5"/>
+  <text x="540" y="827" text-anchor="middle" class="box-title">提交门禁</text>
+  <text x="540" y="852" text-anchor="middle" class="box-en">Commit Guard</text>
+  <text x="540" y="880" text-anchor="middle" class="small">所有约束 Pass 才允许提交</text>
+
+  <rect x="765" y="790" width="270" height="112" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="2.5"/>
+  <text x="900" y="827" text-anchor="middle" class="box-title">终态证据验证</text>
+  <text x="900" y="852" text-anchor="middle" class="box-en">Terminal Evidence</text>
+  <text x="900" y="880" text-anchor="middle" class="small">读取可见成功状态与官方 Reward</text>
+
+  <rect x="1125" y="790" width="270" height="112" rx="8" fill="#ecfdf5" stroke="#0f766e" stroke-width="3"/>
+  <text x="1260" y="827" text-anchor="middle" class="box-title">可信完成</text>
+  <text x="1260" y="852" text-anchor="middle" class="box-en">Grounded Done</text>
+  <text x="1260" y="880" text-anchor="middle" class="small">仅在终态证据充分时结束</text>
+
+  <path d="M1370 748 V766 H540 V786" class="arrow-dashed"/>
+  <text x="947" y="764" text-anchor="middle" class="small">约束满足</text>
+  <path d="M675 846 H761" class="arrow"/>
+  <path d="M1035 846 H1121" class="arrow-teal"/>
+  <path d="M900 790 V758 H1080 V721" class="arrow-recover"/>
+  <text x="966" y="744" class="small">未成功：恢复</text>
+
+  <!-- Harness links -->
+  <path d="M577 283 V330 H230 V426" class="arrow-dashed"/>
+  <path d="M902 283 V330 H1197 V414" class="arrow-dashed"/>
+  <path d="M1227 283 V328 H1578 V414" class="arrow-dashed"/>
+
+  <!-- Footer -->
+  <rect x="70" y="985" width="1660" height="58" rx="8" fill="#e2e8f0"/>
+  <text x="96" y="1021" class="section">统一输出：</text>
+  <text x="244" y="1021" class="body">任务成功率</text>
+  <circle cx="374" cy="1015" r="4" fill="#64748b"/>
+  <text x="394" y="1021" class="body">官方 Reward</text>
+  <circle cx="536" cy="1015" r="4" fill="#64748b"/>
+  <text x="556" y="1021" class="body">Token / Steps / Time</text>
+  <circle cx="776" cy="1015" r="4" fill="#64748b"/>
+  <text x="796" y="1021" class="body">恢复次数</text>
+  <circle cx="930" cy="1015" r="4" fill="#64748b"/>
+  <text x="950" y="1021" class="body">失败类型</text>
+  <text x="1685" y="1021" text-anchor="end" class="small">仅使用任务文本、可见 DOM/HTML、必要截图与执行历史</text>
+</svg>

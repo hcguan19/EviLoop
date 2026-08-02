@@ -1,0 +1,10 @@
+name: MiniWoB++ form-sequence-3
+task: Open http://127.0.0.1:8008/miniwob/form-sequence-3.html and complete the MiniWoB++
+  task shown on the page.
+judge_context:
+- This task was converted from MiniWoB++.
+- The task instruction is displayed inside the local MiniWoB page.
+- Success means completing the interaction requested by the page.
+max_steps: 20
+dataset: miniwob
+miniwob_reward_threshold: 0.99

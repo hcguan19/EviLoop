@@ -1,0 +1,17 @@
+name: WebShop Official fixed 32
+task: Open http://127.0.0.1:3003/browseruse_fixed_32. Complete the WebShop shopping
+  instruction shown on the page. Search using the key product words, required attributes,
+  and required option values from the instruction. On the product page, verify that
+  the title, attributes, and selected options match the instruction before clicking
+  Buy Now. After checkout, read the WebShop "Your score" reward and include it in
+  your final response.
+judge_context:
+- This task uses the WebShop HTML environment with WebShop reward shown on the final
+  checkout page.
+- Success means the agent reaches the WebShop checkout/done page and the displayed
+  reward is close to 1.0.
+- If the final reward is below 1.0, judge the task as failed unless the output clearly
+  proves a benchmark issue.
+max_steps: 30
+webshop_reward_threshold: 0.99
+dataset: webshop
